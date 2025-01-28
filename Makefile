@@ -13,8 +13,6 @@ install: venv
 
 test: venv
 	$(PYTHON) -m pytest tests/
-# 	$(PYTHON) -m pytest --rootdir=. --pyargs tests
-# 	PYTHONPATH=src $(PYTEST) tests/
 
 clean:
 	find . -name "*.pyc" -delete
